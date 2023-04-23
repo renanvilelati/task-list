@@ -1,8 +1,12 @@
-function App() {
+import { Home } from "./components/Home"
+import { GlobalStyles } from "./styles/GlobalStyle"
+
+export const App = () => {
 
   return (
     <>
-    <h1>Title</h1>
+    <Home />
+    <GlobalStyles />
     </>
   )
 }
